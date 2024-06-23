@@ -1,0 +1,11 @@
+[Unit]
+Description=Unit for lock klipperscreen
+After=KlipperScreen.service
+
+[Service]
+ExecStart="/usr/local/bin/screen_lock.sh"
+Type=idle
+Restart=on-failure
+
+[Install]
+WantedBy=multiuser.target

@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEMS=="usb", ATTR{idVendor}=="346d", RUN+="/usr/local/bin/stop_lock.sh"
+ACTION=="remove", SUBSYSTEMS=="usb", ENV{ID_VENDOR_ID}=="346d", RUN+="/usr/local/bin/start_lock.sh"
