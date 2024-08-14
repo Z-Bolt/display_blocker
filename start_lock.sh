@@ -2,7 +2,7 @@
 
 host=`whoami`
 
-config_path=($(find /home/$host/ $(pwd) -name KlipperScreen.conf ))
+config_path=($(find /home/$host/klipper_config -name KlipperScreen.conf ))
 
 STATE=($(cat $config_path | grep "screen_lock" | cut -b 16-))
 if [ $STATE == "True" ]; then
