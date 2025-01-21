@@ -4,7 +4,7 @@
 ## Установка
 ```
 cd ~
-git clone https://github.com/Z-Bolt/display_blocker
+git clone https://github.com/Z-Bolt/display_blocker -b rpicm4
 cd display_blocker
 sudo chmod 777 install.sh
 ./install.sh
