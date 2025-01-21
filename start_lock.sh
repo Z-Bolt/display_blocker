@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Start Lock service">>/home/rock/display_blocker/lock.log
+echo "Start Lock service">>/home/pi/display_blocker/lock.log
 sudo systemctl start screen_lock.service

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-HOME="/home/rock"
+HOME="/home/pi"
 repo="display_blocker"
 
 export DISPLAY=:0
