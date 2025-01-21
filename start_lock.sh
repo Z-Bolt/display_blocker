@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STATE=($(cat /home/pi/klipper_config/KlipperScreen.conf | grep "True" | cut -b 17-))
+STATE=($(cat /home/pi/printer_data/config/KlipperScreen.conf | grep "True" | cut -b 17-))
 if [[ -n $STATE ]]
 then
     sudo echo $STATE
